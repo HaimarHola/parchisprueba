@@ -33,8 +33,8 @@ public class Tablero {
 	
 	public void cambiarFicha(int origen, int destino) {
 		
-		casillas[origen] = false;
-		casillas[destino] = true;
+		casillas[origen] = 0;
+		casillas[destino] = 20;
 		
 	}
 	
@@ -44,7 +44,7 @@ public class Tablero {
 		
 	}
 	
-	public boolean[] consultarCasillas() {
+	public int[] consultarCasillas() {
 		
 		return casillas;
 		
