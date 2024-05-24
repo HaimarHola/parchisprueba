@@ -6,14 +6,14 @@ package parchisClasesPruebasUnits;
 /**
  * 
  */
-public class Jugador {
+public class Jugador extends Usuario{
 
 	private String nombre;
 	private Tablero tablero;
 	private Ficha ficha;
 	
 	public Jugador(String nombre, Tablero tablero, Ficha ficha) {
-		
+		super("","","");
 		this.nombre = nombre;
 		this.tablero = tablero;
 		this.ficha=ficha;
