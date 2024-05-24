@@ -1,6 +1,6 @@
 package parchisClasesPruebasUnits;
 
-public class Ficha {
+public class Ficha extends Tablero{
 
 	
 	private Jugador jugador;
@@ -8,5 +8,10 @@ public class Ficha {
 	
 	public void mover(int cs) {
 		casilla+=cs;
+	}
+	public Ficha() {
+		super();
+		this.jugador=null;
+		this.casilla=0;
 	}
 }
