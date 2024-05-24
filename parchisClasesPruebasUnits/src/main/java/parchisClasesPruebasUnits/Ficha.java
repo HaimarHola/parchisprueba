@@ -7,6 +7,6 @@ public class Ficha {
 	private int casilla;
 	
 	public void mover(int cs) {
-		
+		casilla+=cs;
 	}
 }
