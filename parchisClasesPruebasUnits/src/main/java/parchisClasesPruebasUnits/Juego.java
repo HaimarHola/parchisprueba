@@ -16,7 +16,9 @@ public class Juego {
 		Tablero tablero = new Tablero();
 		Dado dado1 = new Dado();
 		Ficha ficha=new Ficha();
+		Ficha ficha2=new Ficha();
 		Jugador yo = new Jugador("Angel", tablero,ficha);
+		Jugador tu=new Jugador("User",tablero,ficha2);
 		
 		do {
 
