@@ -1,6 +1,6 @@
 package parchisClasesPruebasUnits;
 
-public class Ficha extends Tablero{
+public class Ficha{
 
 	
 	private Jugador jugador;
